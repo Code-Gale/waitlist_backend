@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+width: 100%;
+min-height: 100vh;
+background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.88)), url(/Download\ Abstract\ background\ dark\ and\ black\ overlaps\ 003\ for\ free.jpeg);
+background-position: center;
+background-size: cover;
+padding: 10px 8%;
+text-align: center;
+color: #b852c5;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 20%;
+    cursor: pointer;
+
+}
+
+.btn {
+    background: linear-gradient(rgba(0, 0, 0, 0.486),#b852c5);
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 30px;
+border: 0;
+outline: 0;
+cursor: pointer;
+text-decoration: none;
+}
+
+.content {
+    margin: 3% auto 0;
+
+}
+.content h1 {
+    font-size: 70px;
+    font-weight: 400;
+    background: linear-gradient(rgba(0, 0, 0, 0.486),#b852c5);
+    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.content h1 span{
+    font-weight: 700;
+    color: black;
+    
+}
+
+.content p{
+    font-size: 25px;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    height: 65px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+form input{
+    flex: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+form .btn {
+    padding: 0;
+    width: 150px;
+    height: 65px;
+    border-radius: 31px;
+
+}
+
+form input::placeholder {
+    font-size: 15px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        padding: 10px 20px;
+    }
+    .hero {
+        padding: 10px 5%;
+        min-height: 90vh;
+    }
+    .logo {
+        width: 40%;
+    }
+    .content h1 {
+        font-size: 56px;
+        font-weight: 900;
+    }
+    .content p {
+        font-size: 15px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        max-width: 400px;
+        height: 55px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    form input {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    form .btn {
+        width: 100%;
+        height: 100px;
+        margin-top: 20%;
+        padding: 10px 16px;
+    }
+    .content{
+        margin: 21% auto 0;
+    }
+}
+
+

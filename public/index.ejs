@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> TRIVIA | <%= title %> </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/Trivia_logo_-removebg-preview.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="/Trivia_logo_-removebg-preview.png" class="logo" alt="" />
+        <a
+          href="https://www.instagram.com/triviaofficially?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          class="btn"
+          >Get in touch</a
+        >
+      </nav>
+
+      <div class="content">
+        <h1>Join the <span>waitlist</span></h1>
+        <p>
+          Introducing a game changing app where you can learn and earn.<br />
+          Sign up for our wait-list to be the first to know when it's ready
+        </p>
+        <form action="/api/waitlist" method="post">
+          <input type="email" name="email" placeholder="Email Address" required/>
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
